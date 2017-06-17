@@ -1,0 +1,209 @@
+.hero-image {
+    background-image: url("http://www.fightermag.se/wp-content/uploads/2015/10/MagnusCedenblad_Headshot.jpg");
+    height: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+
+
+body, html {
+    height: 100%;
+    }
+
+p {
+    margin-right: 100px;
+    margin-left: 80px;
+    text-align: center;
+    font-family: sans-serif;
+    font: arial;
+    font-size: 16px;
+    color: #7B7474;
+
+    }
+
+h1 {
+    border-style: inset;
+    color: #7B7474;
+    text-align: center;
+    font-family: "Arial Black"; 
+    font-size: 38px;
+
+    }
+
+h2 {
+    color: #7B7474;
+    font-family: Arial; 
+    font-size: 30px; 
+    margin-right: 100px;
+    margin-left: 80px;
+    }
+
+h3 {
+    color: #7B7474;
+    text-align: center;
+    font-family: Arial; 
+    font-size: 25px; 
+    margin-right: 100px;
+    margin-left: 80px;
+    }
+
+img {
+    width: 100%;
+    height: auto;
+    position: center;
+    }
+
+ul {
+    margin-right: 100px;
+    margin-left: 80px;
+    font-family: sans-serif;
+    font: arial;
+    font-size: 16px;
+    color: white;
+    }
+
+body {
+    background-color: lightblue;
+    background: -webkit-linear-gradient(#287BA4,#A9D9F1,white);
+    }
+
+a:hover {
+    color: black;
+    background-color: #F3F946;
+    opacity: 0.7;
+    }
+
+.citat {
+    color: #3C3636;
+    text-align: center;
+    font-family: Arial; 
+    font-size: 25px; 
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    }
+    
+.linktext {
+    padding: 20px;
+    color: white;
+    background-color: #EAF1F0;
+    opacity: 0.7;
+    }
+
+.foljoss {
+    padding: 20px;
+    color: white;
+    background-color: lightblue;
+    }
+
+.some {
+    padding: 20px;
+    color: white;
+    background-color: lightblue;
+    }
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.7;
+    }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    }
+
+.fa-instagram {
+    background: #DDD492;
+    color: white;
+    }
+
+.fa-youtube {
+    background: #D10F0F;
+    color: white;
+    }
+
+.fa-spotify {
+    background: #19A91E;
+    color: white;
+    }
+
+.portrait {
+    margin-left: 100px; 
+    margin-right: 100px;
+    }
+
+@media only screen and (max-width: 414px) {
+.hero-text {
+    font-size: 12px; 
+    margin-right: 2px;
+    margin-left: 2px;
+        }
+
+    h3 {
+    font-size: 15px; 
+    margin-right: 8px;
+    margin-left: 8px;
+        }
+
+    p {
+    margin-right: 8px;
+    margin-left: 8px;
+    text-align: center;
+    font-size: 14px;}
+
+    ul {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font: arial;
+    font-size: 16px;
+    color: #7B7474;}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.7;}
+
+.portrait {
+    margin-left: 10px; 
+    margin-right: 10px;}
+    }
+
+@media only screen and (min-width: 710px) {
+.hero-text {
+    font-size: 25px; 
+    margin-right: 2px;
+    margin-left: 2px;}
+    
+    h1 {
+    color:black;
+    border-style: inset;
+    text-align: center;
+    font: "Arial Black";}
+        }
+
+    
+ .ingress {
+
+div 
+{
+   
+    display: block; 
+
+}
+
