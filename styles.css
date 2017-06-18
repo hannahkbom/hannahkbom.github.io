@@ -20,7 +20,7 @@ p {
     font-family: sans-serif;
     font: arial;
     font-size: 16px;
-    color: #7B7474;
+    color: #372D2D;
     }
 
 h1 {
@@ -32,7 +32,7 @@ h1 {
     }
 
 h2 {
-    color: #7B7474;
+    color: #372D2D;
     font-family: Arial; 
     font-size: 30px; 
     margin-right: 100px;
@@ -97,6 +97,7 @@ a:hover {
     margin-top: 5px;
     }
 
+
 .some {
     padding: 20px;
     color: white;
@@ -141,6 +142,15 @@ a:hover {
     margin-left: 100px; 
     margin-right: 100px;
     }
+
+.fling-minislide {width:100%; height:0px; padding-bottom: 50%; overflow:hidden; position:relative; }
+.fling-minislide img{ position:absolute; animation:fling-minislide 16s infinite; opacity:0; width: 100%; height: auto;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:4s;}
+.fling-minislide img:nth-child(2){animation-delay:8s;}
+.fling-minislide img:nth-child(1){animation-delay:12s;}
 
 @media only screen and (max-width: 414px) {
 .hero-text {
