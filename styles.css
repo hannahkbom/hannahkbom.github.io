@@ -8,6 +8,10 @@
     position: relative;
     }
 
+.hero-text {
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
 
 body, html {
     height: 100%;
@@ -26,9 +30,10 @@ p {
 h1 {
     border-style: inset;
     color: #7B7474;
+    text-shadow: 2px 2px 4px #000000;
     text-align: center;
-    font-family: "Arial Black"; 
-    font-size: 38px;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     }
 
 h2 {
@@ -144,7 +149,7 @@ a:hover {
     }
 
 .fling-minislide {width:100%; height:0px; padding-bottom: 50%; overflow:hidden; position:relative; }
-.fling-minislide img{ position:absolute; animation:fling-minislide 16s infinite; opacity:0; width: 100%; height: auto;}
+.fling-minislide img{ position:absolute; animation:fling-minislide 14s infinite; opacity:0; width: 100%; height: auto;}
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
 .fling-minislide img:nth-child(4){animation-delay:0s;}
@@ -197,11 +202,11 @@ a:hover {
     margin-left: 2px;}
     
     h1 {
-    color:black;
+    color:black,white,black;
     border-style: inset;
     text-align: center;
     font: "Arial Black";}
-        }
+    }
 
     
  .ingress {
