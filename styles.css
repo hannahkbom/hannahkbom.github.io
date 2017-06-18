@@ -1,3 +1,4 @@
+
 .hero-image {
     background-image: url("http://www.fightermag.se/wp-content/uploads/2015/10/MagnusCedenblad_Headshot.jpg");
     height: 35%;
@@ -20,7 +21,6 @@ p {
     font: arial;
     font-size: 16px;
     color: #7B7474;
-
     }
 
 h1 {
@@ -29,7 +29,6 @@ h1 {
     text-align: center;
     font-family: "Arial Black"; 
     font-size: 38px;
-
     }
 
 h2 {
@@ -66,7 +65,7 @@ ul {
 
 body {
     background-color: lightblue;
-    background: -webkit-linear-gradient(#287BA4,#A9D9F1,white);
+    background: -webkit-linear-gradient(#287BA4,#A9D9F1,white,#A9D9F1,#287BA4);
     }
 
 a:hover {
@@ -80,7 +79,6 @@ a:hover {
     text-align: center;
     font-family: Arial; 
     font-size: 25px; 
-    background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 20px;
@@ -89,7 +87,6 @@ a:hover {
 .linktext {
     padding: 20px;
     color: white;
-    background-color: #EAF1F0;
     opacity: 0.7;
     }
 
@@ -97,6 +94,7 @@ a:hover {
     padding: 20px;
     color: white;
     background-color: lightblue;
+    margin-top: 5px;
     }
 
 .some {
@@ -148,14 +146,12 @@ a:hover {
 .hero-text {
     font-size: 12px; 
     margin-right: 2px;
-    margin-left: 2px;
-        }
+    margin-left: 2px;}
 
     h3 {
     font-size: 15px; 
     margin-right: 8px;
-    margin-left: 8px;
-        }
+    margin-left: 8px;}
 
     p {
     margin-right: 8px;
